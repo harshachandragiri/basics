@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+    <table cellpadding="20" cellspacing="20" border bgcolor="blue" align="center">
+        <!-- <caption align="bottom">student</caption> to get in the bottom  of table-->
+        <caption>Student</caption>
+        <tr bgcolor="red">
+            <th>
+                id
+            </th>
+            <th>
+                name
+            </th>
+            <th>
+                sub
+            </th>
+            <th>
+                marks
+            </th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td bgcolor="green">
+                Harsha
+            </td>
+            <td>
+                html
+            </td>
+            <td>
+                70
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                sai
+            </td>
+            <td>
+                sql
+            </td>
+            <td>
+                75
+            </td>
+        </tr>
+    </table>
+
+    <h2>TABLE CREATION USING ROWSPAN AND COLSPAN</h2>
+
+    <table border align="center" cellspacing="0" cellpadding="10">
+        <tr>
+            <th colspan="4" bgcolor="red">
+                student
+            </th>
+
+
+        </tr>
+        <tr>
+            <th colspan="3" bgcolor="blue">
+                Details
+            </th>
+            <th rowspan="2" bgcolor="green"> marks</th>
+        </tr>
+        <tr bgcolor="grey">
+            <th>id</th>
+            <th>name</th>
+            <th>sub</th>
+
+        </tr>
+        <tr bgcolor="orange">
+            <td>1</td>
+            <td>harsha</td>
+            <td>java</td>
+            <td rowspan="3" bgcolor="violet">1*</td>
+        </tr>
+        <tr bgcolor="orange">
+            <td>2</td>
+            <td>vardhan</td>
+            <td>html</td>
+        </tr>
+        <tr bgcolor="orange">
+            <td>3</td>
+            <td>chandragiri</td>
+            <td>css</td>
+        </tr>
+    </table>
+    <h1>Assignment</h1>
+    <table border="20" cellspacing="0" align="center">
+        <tr>
+            <th colspan="5">Bookmyshow</th>
+        </tr>
+        <tr>
+            <th colspan="4">Details</th>
+            <th rowspan="2">Price</th>
+        </tr>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>Rating</th>
+            <th rowspan="4">Book</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SaiChandan</td>
+            <td>1*</td>
+            <td>399</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kushi</td>
+            <td>3*</td>
+            <td>450</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Harsha</td>
+            <td>4*</td>
+            <td>500</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
